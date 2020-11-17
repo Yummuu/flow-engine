@@ -12,7 +12,7 @@ class ExampleTest extends TestCase
 {
     public function testDemo()
     {
-        AlibabaCloud::accessKeyClient('LTAI4G6ohAdb3LiM7dqAWvTp','shewBHUAUUj2l0ad3hEDZqrvjuPBz2')
+        AlibabaCloud::accessKeyClient('LTAI4G6ohAdb3LiM7dqAWvTp','')
             ->regionId('')
             ->asDefaultClient();
         try {
